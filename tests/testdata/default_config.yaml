@@ -19,7 +19,8 @@ chat:
   # Filepath of a dialog session file.
   # Default: None
   session:
-  # Controls the randomness of the model's responses.
+  # Controls the randomness of the model's responses. Lower values make the output
+  # more deterministic, while higher values produce more random results.
   # Default: 1.0
   temperature: 1.0
   # Enable vim keybindings for chat.

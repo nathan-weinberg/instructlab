@@ -122,6 +122,7 @@ subcommands: list[Command] = [
     Command(("model", "test")),
     Command(("model", "train")),
     Command(("model", "list")),
+    Command(("model", "upload")),
     Command(("data",), needs_config=False, should_fail=False),
     Command(("data", "generate")),
     Command(("data", "list")),
